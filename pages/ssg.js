@@ -15,7 +15,7 @@ export default function StaticSiteGeneration({ data }) {
 // It won't be called on client-side, so you can even do
 // direct database queries.
 export async function getStaticProps() {
-  const res = await fetch(YOUR_API_URL);
+  const res = await fetch("https://siamtoo.com/9607/");
   const data = await res.json();
 
   return {
